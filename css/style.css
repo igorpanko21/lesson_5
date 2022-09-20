@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@400;700;900&display=swap");
+font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaProHeavy.woff2") format("woff2"),
+        url("../fonts/BanderaProHeavy.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaProHeavy-Italic.woff2") format("woff2"),
+        url("../fonts/BanderaProHeavy-Italic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaProMedium-Italic.woff2") format("woff2"),
+        url("../fonts/BanderaProMedium-Italic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaPro-Bold.woff2") format("woff2"),
+        url("../fonts/BanderaPro-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaProMedium.woff2") format("woff2"),
+        url("../fonts/BanderaProMedium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaPro-BoldItalic.woff2") format("woff2"),
+        url("../fonts/BanderaPro-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+
+body{
+    font-family: "Bandera Pro", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+	line-height: 1.5;
+	word-spacing: 5px;
+    box-sizing:border-box;
+}
+
+.header {
+    background-color: rgba(42, 121, 145, 0.644);
+ 
+}
+.title {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+	text-transform: uppercase;
+    text-shadow: 5px 5px 1px rgba(18, 21, 26, 0.418);
+}
+
+img {
+    padding: 15px 0 0 150px;
+}
+.main {
+    background-color: rgba(31, 82, 79, 0.301);
+}
+.content {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: oblique;
+    line-height: 1.5;
+    text-indent: 30px;
+    letter-spacing: 2px;
+   
+}
+
+span{
+    background-color: red;
+    font-weight: 700;
+
+}
+.list {
+    font-size: 18px;
+    font-weight: 700;
+    color: brown;
+    text-transform: uppercase;
+    text-indent: 15px;
+    line-height: 2.5;
+}
+p{
+    font-size: 18px;
+    color: rgb(3, 31, 15);
+    line-height: 1.6;
+
+}
+.ttx {
+    font-size: 18px;
+    font-weight: 700;
+    color: blue;
+    text-align: right;
+    text-shadow: 4px -2px 1px rgba(6, 29, 71, 0.356);
+
+}
+h3.first {
+    font-family: "Roboto",sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    font-weight:700;
+    color: rgb(56, 145, 14);
+    text-decoration: underline;
+}
+.text {
+    color: blueviolet;
+}
+p+.text-content{
+    color: rgb(0, 174, 255);
+    white-space:nowrap;
+}
+.image {
+    margin: 10px 0 10px 150px;
+}
+.two {
+    font-style: oblique;
+    font-size: 22px;
+    font-weight:700;
+    color: rgb(163, 153, 15);
+    text-decoration: overline;
+}
+.text-moto {
+    text-transform: lowercase;
+    color: rgba(190, 25, 33, 0.37);
+}
+.image-auto{
+    padding: 10px 0 10px 250px;
+}
+
+.benefits {
+    font-style: italic;
+    font-size: 22px;
+    font-weight:700;
+    color: rgb(145, 14, 101);
+    text-decoration: underline;
+    text-transform:uppercase;
+}
+.limitation {
+    font-style: oblique;
+    font-size: 22px;
+    font-weight:700;
+    color: rgb(138, 202, 18);
+    text-decoration: underline;
+    text-transform:uppercase;
+}
+.competitors {
+    font-size: 22px;
+    font-weight:700;
+    color: rgba(24, 118, 146, 0.658);
+    text-decoration: underline;
+    text-transform:uppercase;
+}
+h3 ~ ul{
+    color: rgb(255, 94, 0);
+    line-height: 2.2;
+}
+.footer {
+    background-color: rgba(42, 165, 52, 0.5);
+}
+.down-page {
+    font-size: 18px;
+    color: rgba(24, 24, 173, 0.507);
+    line-height: 1.2;
+}
+.red {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.down{
+   color: rgb(48, 58, 11);
+   font-size: 24px;
+   font-weight: 900;
+
+}
+
